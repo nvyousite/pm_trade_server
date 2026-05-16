@@ -1,0 +1,24 @@
+[package]
+name = "polymarket_test"
+version = "0.1.0"
+edition = "2024"
+
+[dependencies]
+anyhow = "1.0.102"
+futures = "0.3.32"
+polymarket_client_sdk_v2 = { version = "=0.6.0-canary.1", features = ["ws", "clob", "gamma"] }
+tokio = { version = "1.52.2", features = ["rt-multi-thread", "macros", "signal"] }
+tracing = "0.1.44"
+tracing-subscriber = { version = "0.3.23", features = ["env-filter", "fmt"] }
+dotenvy = "0.15"
+tracing-log = "0.1"
+chrono = "0.4.44"
+alloy = "2.0.4"
+alloy_1_8 = { package = "alloy", version = "1.8.3" }
+axum = "0.6"
+serde = { version = "1.0", features = ["derive"] }
+serde_json = "1.0"
+tower = "0.4"
+ecdsa = "0.16"
+k256 = "0.13"
+
