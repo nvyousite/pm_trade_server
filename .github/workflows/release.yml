@@ -42,7 +42,7 @@ jobs:
       - uses: taiki-e/upload-rust-binary-action@v1
         with:
           # 必填：你的二进制文件名称，即 cargo build 后生成的可执行文件名
-          bin: your_binary_name
+          bin: polymarket_test
           # 必填：当前任务的目标平台
           target: ${{ matrix.target }}
           # 必填：用于上传文件的 GitHub Token
