@@ -1,2 +1,4 @@
 /target
 .env
+polymarket_test.log
+check_output.txt
