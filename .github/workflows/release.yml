@@ -27,11 +27,11 @@ jobs:
         # 在下方列出你想编译的所有平台
         include:
           - target: x86_64-unknown-linux-gnu
-            os: ubuntu-latest
+            os: ubuntu-22.04
           # - target: aarch64-unknown-linux-gnu
           #   os: ubuntu-latest
-          - target: x86_64-pc-windows-msvc
-            os: windows-latest
+          # - target: x86_64-pc-windows-msvc
+          #   os: windows-latest
           # - target: x86_64-apple-darwin
           #   os: macos-latest
           # - target: aarch64-apple-darwin
